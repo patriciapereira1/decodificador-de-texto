@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador de Texto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Decodificador de texto</h1>
+    </header>
+    <div class="container">
+        <textarea id="inputTexto" placeholder="Digite o texto"></textarea>
+        <button onclick="criptografar()">Criptografar</button>
+        <button onclick="descriptografar()">Descriptografar</button>
+        <div class="area-output">
+            <textarea id="outputTexto" placeholder="Seu texto Criptografado ou descriptografado aparecerá aqui!" readonly class="local-da-imagem"></textarea>
+        </div>
+        <button onclick="copiar()">Copiar</button>
+        <p class="paragrafo-alerta"> <span>Atenção!!!</span> Não colocar acentos letras maiúsculas e nem caracteres especiais.</p>
+    </div>
+    <script src="script.js"></script>
+    <footer class="rodape">
+        <div class="container-rodape">
+            <p>Desenvolvido por Patrícia <a href="https://linkedin.com/in/patriciapereirag"><img src="img/linkedin.png" alt="logo LinkedIn"></a>
+                <a href="https://github.com/patriciapereira1"><img src="img/github.png" alt="logo GitHub"></a>
+                &copy; 2024</p>  
+        </div>
+    </footer>
+</body>
+</html>

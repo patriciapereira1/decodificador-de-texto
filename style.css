@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("img/geometric-1732847_1280.jpg");
+    
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(184, 5, 5, 0.1);
+    background-image: url("img/geometric-1732847_1280.jpg");
+
+}
+h1{
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    text-align: center;
+   
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #0c0c0c;
+    border-radius: 5px;
+}
+
+.local-da-imagem{  
+    background-image: url('img/1.PNG');
+    background-size:contain;
+    background-position:right; 
+    background-repeat: no-repeat;
+}
+
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    
+    
+    
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.paragrafo-alerta{
+    font-size: 1.0rem;
+    color:aqua;
+    
+}
+span{
+    font-size: 1.8rem;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: red;
+}
+.rodape{
+    
+    align-items: center;
+    background-color: rgba(30, 116, 230, 0.425);
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+/* Media Queries */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    textarea {
+        height: 80px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    .rodape {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    textarea {
+        height: 60px;
+    }
+
+    button {
+        padding: 6px 12px;
+    }
+
+    .rodape {
+        font-size: 1rem;
+    }
+}
