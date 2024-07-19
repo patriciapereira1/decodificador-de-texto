@@ -15,6 +15,9 @@
 gaitober" => "gato"
 <li>A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções</li>
 <li>O resultado deve ser exibido na tela.</li>
+link pro projeto em funcionamento --> ("https://decodificador-de-texto-ebon.vercel.app" )
+
+
  <h3>Página inicial</h3>
 <img src="https://github.com/patriciapereira1/decodificador-de-texto/blob/main/2024-07-18%20155230.png">
 <h3>texto criptografo e descriptografado</h3>
