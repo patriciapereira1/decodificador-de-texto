@@ -15,5 +15,10 @@
 gaitober" => "gato"
 <li>A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções</li>
 <li>O resultado deve ser exibido na tela.</li>
-<img ![2024-07-18 155804](https://github.com/user-attachments/assets/31d14bc6-20a5-4bcd-9de6-5647fd5c9469)
->
+ <h3>Página inicial</h3>
+<img src="https://github.com/patriciapereira1/decodificador-de-texto/blob/main/2024-07-18%20155230.png">
+<h3>texto criptografo e descriptografado</h3>
+<img src="https://github.com/patriciapereira1/decodificador-de-texto/blob/main/2024-07-18%20155628.png">
+<img src="https://github.com/patriciapereira1/decodificador-de-texto/blob/main/2024-07-18%20155804.png">
+<h2>Com responsividade para Tablets e Mobile</h2>
+<img src="https://github.com/patriciapereira1/decodificador-de-texto/blob/main/2024-07-18%20161141.png">
